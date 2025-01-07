@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/ganeshCard"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="30dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_height="130dp">
+    <ImageView
+        android:id="@+id/ganesh_pdflogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="30dp"
+
+        android:src="@drawable/pdf_logo"
+        app:layout_constraintEnd_toStartOf="@+id/ganesh_pdfname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ganesh_pdfname"
+        android:layout_width="203dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="41dp"
+        android:text="pdf_name"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>

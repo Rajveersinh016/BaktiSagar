@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bhaktisagarapp_logo"
+        android:label="Bhakti Sagar"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BaktiSagar"
+        tools:targetApi="31">
+        <activity
+            android:name=".category_item"
+            android:exported="false" />
+        <activity
+            android:name=".Bhajan_pdf_Gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".Bhajan_pdf_krishna"
+            android:exported="false" />
+        <activity
+            android:name=".Bhajan_pdf_shiva"
+            android:exported="false" />
+        <activity
+            android:name=".Bhajan"
+            android:exported="false" />
+        <activity
+            android:name=".vishnu_pdf_sahastranam_namavali_stotra"
+            android:exported="false" />
+        <activity
+            android:name=".Vishnu_pdf_arti_Gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".VishnuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Jalaram_pdf_Mangle_path_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".Jalaram_pdf_Bavni_Gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".jalaram_pdf_arti_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".Jalaram_pdf_arti_gujrati"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8362901395519349~8771642279" />
+
+        <activity
+            android:name=".krishna_pdf_ashtak_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".krishna_pdf_ashtak_gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".krishna_pdf_chalisa_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".krishna_pdf_chalisa_gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".krishna_pdf_aarti_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".krishna_pdf_arti_gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".Ambamata_pdf_arti_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".Ambamata_pdf_arti_gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".shiv_pdf_mantra_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".shiv_pdf_mantra_gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".shiv_pdf_chalisa_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".shiv_pdf_chalisa_gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".shiv_pdf_arti_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".shiv_pdf_arti_gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".hanuman_pdf_mantra_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".hanuman_pdf_mantra_gujarati"
+            android:exported="false" />
+        <activity
+            android:name=".hanuman_pdfView_chalisa_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".hanuman_pdf_chalisa_gujarati"
+            android:exported="false" />
+        <activity
+            android:name=".hanuman_pdf_arti_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".hanuman_pdf_arti_gujarati"
+            android:exported="false" />
+        <activity
+            android:name=".ganesh_pdf_mantra_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".ganesh_pdf_stotra_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".ganesh_pdf_stotra_gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".ganesh_pdf_chalisha_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".ganesh_pdf_chalisha_gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".ganesh_pdf_path_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".ganesh_pdf_path_gujrati"
+            android:exported="false" />
+        <activity
+            android:name=".Ganesh_pdf_arti_hindi"
+            android:exported="false" />
+        <activity
+            android:name=".pdf_view"
+            android:exported="false" />
+        <activity
+            android:name=".Sai_Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".JalaramActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Krishna_Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Ambamata_Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Shiva_Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Hanuman_Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Ganesh_Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

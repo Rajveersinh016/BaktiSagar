@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFFE2"
+
+    tools:context=".Ganesh_Activity2">
+
+
+   <ListView
+       android:id="@+id/Ganesh_pdf"
+       android:layout_width="match_parent"
+       android:layout_height="680dp"
+       android:layout_marginTop="10dp"
+       android:divider="#FDFFE2"
+       android:dividerHeight="15dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:listitem="@layout/ganesh_listitem" />
+
+   <com.google.android.gms.ads.AdView
+       android:id="@+id/adView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="0dp"
+       android:foregroundGravity="center"
+       app:adSize="BANNER"
+       app:adUnitId="ca-app-pub-8362901395519349/2072643612">
+   </com.google.android.gms.ads.AdView>
+
+
+
+
+</RelativeLayout>

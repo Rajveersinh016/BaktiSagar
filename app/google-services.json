@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1088193829431",
+    "project_id": "bhaktisagar-2c099",
+    "storage_bucket": "bhaktisagar-2c099.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088193829431:android:a1e92b580494e3427bfdb2",
+        "android_client_info": {
+          "package_name": "com.rajveer.baktisagar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChJabqc5NZ0PKiH3yLXlE9QvS-bu2kLUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
